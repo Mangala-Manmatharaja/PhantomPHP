@@ -22,26 +22,26 @@ node index.js --help
 ---
 
 ## 📝 Sample Output
-{
-  "file": "upload.php",
-  "issues": [
+    {
+      "file": "upload.php",
+      "issues": [
     {
       "type": "command_injection",
       "match": "exec($_GET['cmd'])",
       "line": 15,
       "severity": "high"
     }
-  ]
-}
+    ]
+    }
 
 ---
 
 ## 🏷 Detection Patterns
 
-    Type        	          Example Pattern
-Base64 Decode	      eval(base64_decode("PD9waHA..."));
-Command Injection	  system($_POST['command']);
-File Inclusion	    include($_GET['page'] . '.php');
+        Type        	          Example Pattern
+    Base64 Decode	      eval(base64_decode("PD9waHA..."));
+    Command Injection	  system($_POST['command']);
+    File Inclusion	    include($_GET['page'] . '.php');
 
 ---
 ### 📜 License
