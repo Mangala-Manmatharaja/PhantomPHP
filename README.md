@@ -1,4 +1,4 @@
-# 🔍 PhantomPHP - PHP Malwa
+# 🔍 PhantomPHP - PHP Malwar
 
 ## 📌 Why Use PhantomPHP?
 * Detects malicious code patterns in PHP files
