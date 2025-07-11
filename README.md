@@ -1,4 +1,4 @@
-# 🔍 PhantomPHP - PHP Malware A
+# 🔍 PhantomPHP - PHP Malware An
 
 ## 📌 Why Use PhantomPHP?
 * Detects malicious code patterns in PHP files
